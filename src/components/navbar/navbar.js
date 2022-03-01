@@ -26,26 +26,25 @@ const Navbar = () => {
 
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to='/' activeClass="active" className="nav-link" onClick={handleClick}>
+                        <Link to='/' className="nav-link" onClick={handleClick}>
                             Home
                         </Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link exact to='about' 
-                        activeClass="active" className="nav-link" onClick={handleClick} >
+                        <Link to='/about' className="nav-link" onClick={handleClick} >
                             About Us
                         </Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link exact to='courses' activeClass="active" className="nav-link" onClick={handleClick}>
+                        <Link to='/courses' className="nav-link" onClick={handleClick}>
                             Courses
                         </Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link exact to='contact-us' activeClass="active" className="nav-link" onClick={handleClick}>
+                        <Link to='/contact-us' className="nav-link" onClick={handleClick}>
                             Contact Us
                         </Link>
                     </li>
